@@ -1,0 +1,119 @@
+.MainHeader {
+    position: relative;
+    height: 100px;
+    z-index: 1030;
+}
+.Navbar{
+    transition: margin-left .3s ease-in-out !important;
+    margin-bottom: 0 !important;
+    border: none !important;
+    min-height: 70px !important;
+    justify-content: flex-end;
+}
+.Navbar .UserImage {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: -2px;
+    border: solid 1px #aaa;
+}
+.Sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+}
+
+.Sidebar.active {
+    margin-left: -250px;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .Sidebar {
+        margin-left: -250px;
+    }
+    .Sidebar.active {
+        margin-left: 0;
+    }
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.Sidebar {
+    background: #FFFFFF;
+    color: #000;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 50px;
+    min-height: 100%;
+    width: 230px;
+    z-index: 810;
+}
+
+.Sidebar .sidebar_header {
+    padding: 20px;
+    background: #FFFFFF;
+}
+
+.Sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+.Sidebar ul p {
+    color: #000;
+    padding: 10px;
+}
+
+.Sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+.Sidebar ul li a:hover {
+    color: #FFFFFF;
+    background: #23C7C6;
+}
+
+.Sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #000;
+    background: #FFFFFF;
+}
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #FFFFFF;
+}
+
+.NavigationItem a:hover,
+.NavigationItem a:active,
+.NavigationItem a.active{
+    color: #23C7C6;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.Logo{
+    height: 100px;
+    width: fit-content;
+}
+
+@media (max-width: 499px){
+    .Logo{
+        height: 50px;
+    }
+    .Navbar{
+        justify-content: space-between;
+    }
+}
