@@ -42,7 +42,7 @@ function Personnel (props){
     const userDetails = useUserState();
     const [ userListLimit, setUserListLimit] = useState(undefined);
 
-    const search =props.location.search;
+    const search =  window.location.search;
     const params = new URLSearchParams(search);
     const pageSearch = Number(params.get('page'));
     const firstName = params.get('firstname') || "";
@@ -114,7 +114,6 @@ function Personnel (props){
     
     return(
         <React.Fragment>
-            {console.table("from personnel", page, userDetails, pageSearch, firstName, totalPage)}
             <div className="card-header-personnel">
                 <div className="row">
                     <div className="col-sm-7">

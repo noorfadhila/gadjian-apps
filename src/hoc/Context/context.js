@@ -6,9 +6,9 @@ const UserDispatchContext = React.createContext();
 
 export function useUserState() {
   const context = React.useContext(UserStateContext);
-  if (context === undefined) {
-    throw new Error("useUserState must be used within a UserProvider");
-  }
+  // if (context === undefined) {
+  //   throw new Error("useUserState must be used within a UserProvider");
+  // }
   
   return context;
 }
