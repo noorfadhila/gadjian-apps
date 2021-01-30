@@ -22,7 +22,7 @@ const DisabledPagination = styled.div`
     display: flex;
     align-items: center;
     @media (max-width: 499px) {
-        font-size: 15px;
+        font-size: 14px;
     }
 `
 
@@ -33,7 +33,7 @@ const ActivePagination = styled.div`
     display: flex;
     align-items: center;
     @media (max-width: 499px) {
-        font-size: 16px;
+        font-size: 15px;
     }
 `
 
