@@ -38,7 +38,7 @@ function Dashboard (){
                             noor.fadhila05@gmail.com
                     </p>
                 </div>
-                <div className="col-sm-5 d-flex align-items-center justify-content-end">
+                <div className="col-sm-5 d-sm-flex d-none align-items-center justify-content-end">
                     <div className="row">
                         <ProfileImg src="https://media-exp1.licdn.com/dms/image/C5603AQE6vKOKvV-qeA/profile-displayphoto-shrink_200_200/0/1604424958090?e=1617235200&v=beta&t=p7wSZV37lELOZGOcrlzI9oM7yRbIldCOS9_A3eas_Lk" alt="noor fadhila kamal" />
                     </div>
