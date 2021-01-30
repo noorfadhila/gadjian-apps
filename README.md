@@ -9,7 +9,18 @@ https://gadjian-app-527bf.web.app/
 3. Run with npm start or yarns start
 4. Test with npm test
 
------------------------------------------------------------
+---------------------
+
+# Technologies:
+
+- React 17.0.1
+- Bootstrap
+- Emotion
+- Axios
+- Enzyme and Jest
+- etc
+
+----------------------
 
 # Getting Started with Create React App
 
