@@ -29,7 +29,7 @@ function Dashboard (){
                     </p>
                     <p>
                         <FontAwesomeIcon icon={faGithub} />&nbsp;&nbsp;
-                        <a href="https://github.com/noorfadhila/gadjian-app" target="_blank">
+                        <a href="https://github.com/noorfadhila/gadjian-apps" target="_blank">
                             noorfadhila
                         </a>
                     </p>
