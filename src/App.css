@@ -92,7 +92,6 @@ li.nav-item {
 }
 
 .container-content {
-  height: 100%;
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -112,6 +111,9 @@ li.nav-item {
 }
 
 @media (min-width: 768px) {
+  .container-content {
+    height: 100%;
+  }
   #sidebar-wrapper {
     margin-left: 0;
   }
@@ -130,6 +132,7 @@ li.nav-item {
   li.nav-item {
     margin: 0px;
   }
+  
   .card-header-personnel {
     background-color: #ffffff;
     margin: 20px 5px;

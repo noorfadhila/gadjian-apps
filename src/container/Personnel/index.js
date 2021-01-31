@@ -51,6 +51,8 @@ function Personnel (props){
     const [ limit, setLimit ] = useState(page*4);
     const [ offset, setOffset ] = useState((page*4)-4);
     const [ totalPage, setTotalPage ] = useState(undefined);
+
+    const isError = userDetails.errorMessage;
     
     const getListUser = () => {
         if(userDetails.userList !== 0){
@@ -110,6 +112,18 @@ function Personnel (props){
         userList = userListLimit.map((users, index) => (
             <UserComponent userDetail={users} key={users.id.value} />
         ));
+    } else if(isError !== null) {
+        userList = 
+            <div className="col-12 text-center">
+                <p className="font-weight-bold">Ooops! Something went wrong, try again later!</p>
+            </div>
+    }else {
+        setTimeout(() => {
+            userList = 
+            <div className="col-12 text-center">
+                <p className="font-weight-bold">Ooops! Something went wrong, try again later!</p>
+            </div>
+        }, 2000);        
     }
     
     return(

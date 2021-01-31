@@ -24,6 +24,6 @@ export async function getUsers(dispatch) {
     dispatch({ type: 'GET_USER_ERROR', error: data.errors[0] });
     return;
   } catch (error) {
-    dispatch({ type: 'GET_USER_ERROR', error: error });
+    dispatch({ type: 'GET_USER_ERROR', error: error.response.data });
   }
 }
