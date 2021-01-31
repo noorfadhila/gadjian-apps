@@ -1,3 +1,27 @@
+# Demo App
+
+https://gadjian-app-527bf.web.app/
+
+# Install App Locally
+
+1. Clone git
+2. npm install
+3. Run with npm start or yarns start
+4. Test with npm test
+
+---------------------
+
+# Technologies:
+
+- React 17.0.1
+- Bootstrap
+- Emotion
+- Axios
+- Enzyme and Jest
+- etc
+
+----------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
